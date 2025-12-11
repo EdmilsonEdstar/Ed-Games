@@ -1,0 +1,14 @@
+.position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 5rem;
+    background-color: rgba(46, 150, 255, 0.1);  
+}
+
+@media(max-width: 600px){
+    .position{
+        display: block; 
+    }
+}

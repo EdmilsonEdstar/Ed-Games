@@ -1,0 +1,22 @@
+.sessionhero{
+    color: white;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+h1{
+    font-size: 3rem;
+}
+
+button{
+    padding: 0.8rem 3rem;
+    background-color: gold;
+    border-radius: 0.8rem;
+    border: none;
+}
+button:hover{
+    filter: brightness(80%);
+}
