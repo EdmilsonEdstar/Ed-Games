@@ -1,0 +1,42 @@
+.card{
+    background-color: rgb(45, 45, 45);
+    max-width: 15rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(20, 20, 20);
+ 
+    box-shadow: 10px 10px 10px 2px rgb(44, 67, 90);
+}
+.image img{
+    max-width: 90%;
+}
+.name{
+    color: lightblue;
+}
+.price{
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+.addcart, .price{
+    margin-bottom: 1rem;
+}
+
+.addcart{
+    padding: 0.8rem 3rem;
+    background-color: rgb(237, 205, 0);
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.addcart:hover{
+    filter:brightness(80%);
+}
+
+.card:hover{
+   
+    background-color: rgb(24, 95, 165);
+
+    box-shadow: 0px 0px 50px 10px dodgerblue;
+    transition: 0.6s all ease-in-out;
+}

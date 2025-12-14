@@ -1,22 +1,49 @@
 .sessionhero{
     color: white;
-    width: 50%;
+    width: 45%;
     display: block;
     justify-content: center;
     align-items: center;
     margin-top: 30vh;
     margin-left: 10vh;
 }
-h1{
-    font-size: 3rem;
+.title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
-button{
+.subtitle{
+    color: gold;
+    font-size: 2rem;
+}
+
+.seegames{
     padding: 0.8rem 3rem;
     background-color: gold;
     border-radius: 0.8rem;
     border: none;
 }
-button:hover{
+.seegames:hover{
     filter: brightness(80%);
+}
+
+@media(max-width:600px){
+    .sessionhero{
+        color: white;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .title{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+    .subtitle{
+        font-size: 1.1rem;
+        color: gold;
+    }
 }
