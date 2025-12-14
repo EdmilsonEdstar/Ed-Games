@@ -1,3 +1,4 @@
+import { BadgeInfo, DotIcon, EyeIcon, HomeIcon, InfinityIcon, InfoIcon, PlusIcon, PlusSquareIcon } from "lucide-react"
 import style from "./style.module.css"
 
 type PropsSessionCard ={
@@ -10,11 +11,12 @@ export function SessionCard(props: PropsSessionCard){
     return(
         <div className={style.card}>
             <div className={style.image}>
-                <img className={style.item} src={props.image} alt="" />
+                <img className={style.imagesize} src={props.image} alt="" />
             </div>
             <h2 className={style.name}>{props.name}</h2>
             <p className={style.price}>{props.price}</p>
-            <button className={style.addcart}>Adicionar ao carrinho</button>
+            <button className={style.addcart}> <PlusSquareIcon/></button> 
+            <button className={style.addcart}> <EyeIcon/></button>
         </div>
     )
 }

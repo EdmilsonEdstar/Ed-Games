@@ -17,15 +17,6 @@
     font-size: 2rem;
 }
 
-.seegames{
-    padding: 0.8rem 3rem;
-    background-color: gold;
-    border-radius: 0.8rem;
-    border: none;
-}
-.seegames:hover{
-    filter: brightness(80%);
-}
 
 @media(max-width:600px){
     .sessionhero{

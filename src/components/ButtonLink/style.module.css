@@ -1,0 +1,14 @@
+.buttonlink{
+    padding: 0.8rem 3rem;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    border: none;
+}
+.buttonlink:hover{
+    filter: brightness(80%);
+    box-shadow: 0px 0px 5px 5px dodgerblue;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
