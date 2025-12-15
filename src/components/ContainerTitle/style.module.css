@@ -4,5 +4,5 @@
     text-transform: uppercase;
     font-family: "Bitcount Prop Single", system-ui;
     margin: 5rem;
-    color: gold;
+    color: var(--warning);
 }

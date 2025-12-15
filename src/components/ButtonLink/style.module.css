@@ -1,14 +1,19 @@
 .buttonlink{
-    padding: 0.8rem 3rem;
-    background-color: gold;
-    color: black;
-    text-decoration: none;
-    border-radius: 0.8rem;
+    padding: var(--buttonlinksize);gap: 3rem;
+    margin-right: 0.5rem;
+    background-color: var(--primary);
+    border-radius: 0.3rem;
+    color: var(--text-default);
     border: none;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 .buttonlink:hover{
-    filter: brightness(80%);
-    box-shadow: 0px 0px 5px 5px dodgerblue;
-    transition: 0.2s all ease-in-out;
+    filter:brightness(80%);
+    color: var(--text-default);
     cursor: pointer;
 }

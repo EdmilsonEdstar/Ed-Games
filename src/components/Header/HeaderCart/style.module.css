@@ -29,7 +29,7 @@
 }
 
 .icon sup{
-    background-color: gold;
+    background-color: var(--warning);
     padding: 0.2rem;
     border-radius: 2rem;
 }

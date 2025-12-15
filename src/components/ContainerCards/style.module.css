@@ -3,11 +3,10 @@
     margin: auto;
     height: 100%;
     padding: 0 5rem 5rem 5rem;
-    gap: 2rem;
+    gap: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;   
 }

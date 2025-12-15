@@ -1,5 +1,5 @@
 .sessionhero{
-    color: white;
+    color: var(--text-default);
     width: 45%;
     display: block;
     justify-content: center;
@@ -13,28 +13,33 @@
 }
 
 .subtitle{
-    color: gold;
+    color: var(--warning);
     font-size: 2rem;
 }
 
 
 @media(max-width:600px){
     .sessionhero{
-        color: white;
+        color: var(--text-default);
         display: block;
         justify-content: center;
         align-items: center;
         text-align: center;
-        
+        margin: 50% auto;
+    
     }
 
     .title{
-        font-size: 2rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
     }
     
     .subtitle{
-        font-size: 1.1rem;
-        color: gold;
+        font-size: 0.9rem;
+        color: var(--warning);
     }
 }
+
+
+
+
