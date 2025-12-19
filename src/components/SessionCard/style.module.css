@@ -19,7 +19,7 @@
 }
 .imagesize:hover{
     cursor: pointer;
-    filter: brightness(100%)
+    filter: brightness(100%);
 }
 
 .name{

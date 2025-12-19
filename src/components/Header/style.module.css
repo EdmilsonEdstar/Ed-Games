@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     padding: 1rem 5rem;
-    background-color: var(--blue-transparent);
+    background-color: var(--header-color);
 }
 
 @media(max-width: 600px){

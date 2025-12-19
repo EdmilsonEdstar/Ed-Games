@@ -4,9 +4,13 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: var(--gray-800);
-}
 html{
     scroll-behavior: smooth;
+}
+
+.temadark{
+    background-color: red;
+}
+.temalight{
+    background-color: blue;
 }
