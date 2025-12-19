@@ -35,11 +35,11 @@
   --hero-color1: #363636;
   --hero-color2: rgba(255, 255, 255, 0.2);
   --blue-light: rgb(173, 216, 230);
-  --header-color: rgba(242, 244, 247, 0.8);
+  --header-color: rgba(255, 255, 255, 0.8);
   --blue-shadow: rgb(44, 67, 90);
 
-  --primary: dodgerblue;
-  --text-default: #1e1e1e;
+  --primary: rgb(4, 44, 83);
+  --text-default: #9f9f9f;
 
   --success: #22c55e;
   --warning: #eab308;
