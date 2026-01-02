@@ -5,7 +5,6 @@ import {useEffect, useState } from "react";
 export function HeaderCart(){
 
         const[theme, setTheme] = useState(() => { return localStorage.getItem('theme') || 'dark'});
-
         const setThemeBody = () =>{
             setTheme(theme === 'dark' ? 'light' : 'dark');
         }

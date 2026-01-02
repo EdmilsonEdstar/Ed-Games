@@ -32,8 +32,8 @@
   --gray-800: rgb(245, 244, 244);
   --gray-900: #fff;
 
-  --hero-color1: #363636;
-  --hero-color2: rgba(255, 255, 255, 0.2);
+  --hero-color1: #2e2e2e;
+  --hero-color2: rgba(44, 44, 44, 0.2);
   --blue-light: rgb(173, 216, 230);
   --header-color: rgba(255, 255, 255, 0.8);
   --blue-shadow: rgb(44, 67, 90);
